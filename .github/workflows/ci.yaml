@@ -2,7 +2,7 @@ name: GITHub CI pieline testing the html file
 on: 
     push:
         branches:
-              -main
+              - main
 jobs:
     validate:
         runs-on: ubuntu-latest
